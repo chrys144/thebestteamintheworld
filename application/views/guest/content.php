@@ -119,7 +119,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">The best team in the WOOOOORRLD</p>
+                    <p class="large text-muted">4-1</p>
                 </div>
             </div>
         </div>
