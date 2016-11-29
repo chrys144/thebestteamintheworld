@@ -8,6 +8,7 @@
                 </div>
             </div>
             <div class="row">
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#modal-mysql-comandos" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -22,6 +23,8 @@
                         <p class="text-muted">Mysql comandos</p>
                     </div>
                 </div>
+
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#modal-mysql-cliente" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -36,6 +39,8 @@
                         <p class="text-muted">Mysql cliente</p>
                     </div>
                 </div>
+
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#mymodal-crear-github" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -51,7 +56,7 @@
                     </div>
                 </div>
 
-                 <div class="col-md-4 col-sm-6 portfolio-item">
+                 <div class="col-md-12 col-sm-6 portfolio-item">
                     <a href="#mymodal-instalar-github" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
