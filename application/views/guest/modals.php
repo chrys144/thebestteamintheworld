@@ -80,7 +80,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-    							 <h2>Práctica base de datos</h2>
+    							<h2>Práctica base de datos</h2>
                                 <p class="item-intro text-muted">Mysql cliente remoto WorkBench.</p>
                                
                                 <p>Se muestra cómo crear una base de datos y posteriormente tablas.</p>
@@ -159,7 +159,7 @@
     </div>
 
     <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="mymodal-crear-github" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -173,8 +173,115 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-      
+                                <h2>Práctica crear github</h2>
+                                <p class="item-intro text-muted">Git hub.</p>
+
+                                <h4>Crear una carpeta</h4>
+                                 <p>Crea una carpeta con tu proyecto donde creas más conveniente para esta práctica se creó en el Escritorio <br/> c:/user/usuario/desktop/test<br/>
+                                 Además debes de haber instalado el Git windows o Mac; git bash<br/>
+                                 Ahora estando en la carpeta de tu proyecto con la herramienta git bash<br/>
+                                 cd desktop/test <-- siendo test la carpeta donde tenemos nuestro proyecto.<br/>
+                                 De esta manera sigiendo los pasos que se muestran en las imagenes.</p>
+
+                                <h4>Inicializar proyecto</h4>
+                                <img class="img-responsive img-centered" src="<?= base_url() ?>plantilla/img/portfolio/github/crearRepositorio.PNG" alt="">
+
+                                <h4>Inicializar proyecto</h4>
+                                <p>Este paso es para poner nombre al cambio que se hará con el sigiente comando que aparece en la imagen siguiente</p>
+                                <img class="img-responsive img-centered" src="<?= base_url() ?>plantilla/img/portfolio/github/crearRepositorio2.PNG" alt="">
+
+                                  <h4>Ligar el repositorio local al github</h4>
+                                <p>Ligamos el repositorio local al github con los comandos siguientes.</p>
+                                <img class="img-responsive img-centered" src="<?= base_url() ?>plantilla/img/portfolio/github/crearRepositorio3.PNG" alt="">
+
+                                <h4>Recargamos la página de nuestro github</h4>
+                                <p>Y podremos ver los cambios</p>
+                                <img class="img-responsive img-centered" src="<?= base_url() ?>plantilla/img/portfolio/github/recargarPag.PNG" alt="">
+
+
+                                <h4>Realizamos algunos cambios de forma local.</h4>
+                                <p>Nombramos al los cambios hechos para poder mandarlos.</p>
+                                <img class="img-responsive img-centered" src="<?= base_url() ?>plantilla/img/portfolio/github/cambios.PNG" alt="">
+
+                                <h4>Y los mandamos y recargamos la página.</h4>
+                                <p>...</p>
+                                <img class="img-responsive img-centered" src="<?= base_url() ?>plantilla/img/portfolio/github/cambios2.PNG" alt="">
+                                <img class="img-responsive img-centered" src="<?= base_url() ?>plantilla/img/portfolio/github/cambios3.PNG" alt="">
+
+
+                                 <ul class="list-inline">
+                                    <li>Fecha: Noviembre 28 2016</li>
+                                    <li>Categoria: Git hub</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="mymodal-instalar-github" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Práctica instalar github</h2>
+                                <p class="item-intro text-muted">Instalar git hub.</p>
+
+                                <h4>Update git hub</h4>
+                                <p>Primero realizamos un update para verificar si hay un github instalado</p>
+                                <img class="img-responsive img-centered" src="<?= base_url() ?>plantilla/img/portfolio/installgithub/updategithub.PNG" alt="">
+
+                                <h4>Instalar git hub</h4>
+                                <p>Se intala github con el comando siguiente</p>
+                                <img class="img-responsive img-centered" src="<?= base_url() ?>plantilla/img/portfolio/installgithub/updategithub.PNG" alt="">
+
+                                <h4>Se accede a la carpeta pública donde se encuentran los archivos html, js, css, etc; esto no debería de ser así pero bueno.</h4>
+
+                                <p>Ya estando en la dirección cd /var/www/html</p>
+                                <p>Una vez en esa dirección se teclea la siguiente linea de código<br/>
+                                git clone (y aquí va tu dirección de GITHUB)<br/>
+                                Después de ésto tecleas cd (aquí va como se llama tu GIT HUB) ésto para verificar que se haya clonado correctamente.</p>
+
+
+                                <h4>Cambiar document root</h4>
+                                <p>Este archivo se modifica para acceda de manera directa al repositorio que hemos creado.</p>
+                                <img class="img-responsive img-centered" src="<?= base_url() ?>plantilla/img/portfolio/installgithub/cambiardocumentroot1.PNG" alt="">
+
+                                <h4>Cambiar document root 2</h4>
+                                <p>Se te desplegará la siguiente ventana, y sólo cambias la linea que dice Document Root por la dirección que quieres que salga por defecto</p>
+
+                                <img class="img-responsive img-centered" src="<?= base_url() ?>plantilla/img/portfolio/installgithub/cambiardocumentroot.PNG" alt="">
+
+
+                                <h4>Hacer cambios locales</h4>
+                                <p>Para verificar que efectivamente haya funcionado</p>
+
+                                <img class="img-responsive img-centered" src="<?= base_url() ?>plantilla/img/portfolio/installgithub/hacercambioslocales.PNG" alt="">
+
+                                <h4>Y finalmente</h4>
+                                <p>Teclea el comando git pull, estando en la ruta /var/www/html/(El nombre de tu repositorio)</p>
+
+                                <img class="img-responsive img-centered" src="<?= base_url() ?>plantilla/img/portfolio/installgithub/serverputtypull.PNG" alt="">
+
+                                 <ul class="list-inline">
+                                    <li>Fecha: Noviembre 28 2016</li>
+                                    <li>Categoria: Git hub</li>
+                                </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>

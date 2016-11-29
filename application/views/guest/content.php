@@ -37,17 +37,32 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="#mymodal-crear-github" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                       
+                       <img src="<?= base_url() ?>plantilla/img/portfolio/github/recargarPag.PNG" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Práctica github</h4>
+                        <p class="text-muted">creando un github</p>
+                    </div>
+                </div>
+
+                 <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#mymodal-instalar-github" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                       <img src="<?= base_url() ?>plantilla/img/portfolio/installgithub/updategithub.PNG" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Práctica github</h4>
+                        <p class="text-muted">creando un github</p>
                     </div>
                 </div>
             </div>
